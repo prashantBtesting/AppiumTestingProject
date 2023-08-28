@@ -21,7 +21,7 @@ public class AppiumTestDemo {
         UiAutomator2Options options = new UiAutomator2Options(); // invoke browser on simulator
         options.setDeviceName("Pixel 2 XL API 34");
         options.setApp("E:\\AppiumProject\\src\\main\\resources\\ApiDemos-debug.apk");
-        AndroidDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
+        AndroidDriver  driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), options);
         //Actual Automation
         driver.findElement(AppiumBy.accessibilityId("Preference")).click();
 
