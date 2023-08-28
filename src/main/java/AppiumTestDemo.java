@@ -26,6 +26,7 @@ public class AppiumTestDemo {
         driver.findElement(AppiumBy.accessibilityId("Preference")).click();
 
         driver.quit();
+
         service.stop();// Stoping service
 
     }
